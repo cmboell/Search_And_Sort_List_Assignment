@@ -47,7 +47,9 @@ def sort_list(the_list):
 # with sorting
 
 
+# function to search list
 def search_list(the_list):
+    # prompt user input to search for a certain number
     search_for = float(input('Input number you would like to search for '))
     return the_list.index(search_for)
 # have a return statement because we are returning a number for the index spot (new number) the
